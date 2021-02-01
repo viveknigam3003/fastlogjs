@@ -22,30 +22,30 @@ const fastlog = (message, level) => {
   switch (level) {
     case 1:
       return console.log(
-        `${colors.cyan}[INFO] ${new Date().toLocaleString()} %s${colors.reset}`,
+        `${colors.cyan}[INFO: ${new Date().toLocaleString()}] %s${colors.reset}`,
         message
       );
     case 2:
       return console.log(
-        `${colors.yellow}[WARNING] ${new Date().toLocaleString()} %s${
+        `${colors.yellow}[WARNING: ${new Date().toLocaleString()}] %s${
           colors.reset
         }`,
         message
       );
     case 3:
       return console.log(
-        `${colors.green}[SUCCESS] ${new Date().toLocaleString()} %s${
+        `${colors.green}[SUCCESS: ${new Date().toLocaleString()}] %s${
           colors.reset
         }`,
         message
       );
     case 4:
       return console.log(
-        `${colors.red}[ERROR] ${new Date().toLocaleString()} %s${colors.reset}`,
+        `${colors.red}[ERROR: ${new Date().toLocaleString()}] %s${colors.reset}`,
         message
       );
     default:
-      return console.log(`[LOG] ${new Date().toLocaleString()} %s`, message);
+      return console.log(`[LOG: ${new Date().toLocaleString()}] %s`, message);
   }
 };
 
