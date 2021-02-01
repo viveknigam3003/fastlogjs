@@ -5,11 +5,13 @@
 
 ## Installation
 ```bash
-npm i --save fastlogjs 
+npm i -g fastlogjs 
 ```
 
 ## Usage
 ```js
+import fastlog from 'fastlogjs';
+
 fastlog('Just a normal log')
 
 const level = 1;
