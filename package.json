@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/viveknigam3003/fastlogjs.git"
   },
-  "keywords": [],
+  "keywords": ["javascript", "console-log"],
   "author": "Vivek Nigam",
   "license": "Apache 2.0",
   "bugs": {
