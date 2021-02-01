@@ -1,6 +1,6 @@
 {
   "name": "fastlogjs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Beautiful logs for your JS apps.",
   "main": "index.js",
   "scripts": {
