@@ -3,6 +3,11 @@
 ## Description
 ⚡ Supercharged console logs for your JS apps. Inspired by [gabrielefronze/fastlog](https://github.com/gabrielefronze/fastlog).
 
+## Installation
+```bash
+npm i --save fastlogjs 
+```
+
 ## Usage
 ```js
 fastlog('Just a normal log')
