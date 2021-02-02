@@ -5,7 +5,7 @@
 
 ## Installation
 ```bash
-npm i -g fastlogjs 
+npm i --save-dev fastlogjs 
 ```
 
 ## Usage
