@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/viveknigam3003/fastlogjs.git"
   },
+  "publishConfig": {
+  "registry":"https://npm.pkg.github.com"
+},
   "keywords": ["javascript", "console-log"],
   "author": "Vivek Nigam",
   "license": "Apache 2.0",
